@@ -38,4 +38,5 @@ The project has three endpoints all defined in the `SnippetController`:
 ### Production Concerns
 
 - Validations and null checks were carried out in `SnippetManagementServiceImpl`
-- To keep things simple, errors are printed on the terminal
+- To keep things simple, errors are printed on the terminal for troubleshooting
+- For in-memory storage, a HashMap was used because it hss fast access, insertion and deletion
