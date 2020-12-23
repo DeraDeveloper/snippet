@@ -6,6 +6,7 @@
 ### Tools
 
 - This application uses [Spring Boot Web Starter](https://spring.io/guides/gs/spring-boot/)
+  - Spring boot was used to reduce overall development time and increase efficiency with the default project setup
 - This Language of implementation is Java 1.8
 - This application uses Maven for building and dependency management
 
