@@ -30,4 +30,5 @@ public class SnippetController {
     public SnippetCreationResponse likeSnippet(@PathVariable("name") String name) throws ResourceNotFoundException {
         return snippetManagementService.likeSnippet(name);
     }
+
 }
