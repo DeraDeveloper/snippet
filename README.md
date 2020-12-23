@@ -6,7 +6,7 @@
 ### Tools
 
 - This application uses [Spring Boot Web Starter](https://spring.io/guides/gs/spring-boot/)
-- This Languate of implementation is Java 1.8
+- This Language of implementation is Java 1.8
 - This application uses Maven for building and dependency management
 
 ### Application Structure
