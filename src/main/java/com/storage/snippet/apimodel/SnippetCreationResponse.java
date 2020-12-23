@@ -1,18 +1,18 @@
 package com.storage.snippet.apimodel;
 
-import java.util.Date;
-
 public class SnippetCreationResponse {
     private String url;
     private String name;
     private String expires_at;
     private String snippet;
+    private int likes;
 
     public SnippetCreationResponse(String url, String name, String expires_at, String snippet) {
         this.url = url;
         this.name = name;
         this.expires_at = expires_at;
         this.snippet = snippet;
+        this.likes = 0;
     }
 
     public String getUrl() {
@@ -45,5 +45,13 @@ public class SnippetCreationResponse {
 
     public void setSnippet(String snippet) {
         this.snippet = snippet;
+    }
+
+    public int getLikes() {
+        return likes;
+    }
+
+    public void setLikes(int likes) {
+        this.likes = likes;
     }
 }
