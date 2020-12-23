@@ -43,7 +43,8 @@ public class SnippetManagementServiceImpl implements SnippetManagementService {
             return buildResponse(snippetMap.get(name));
         }else{
             snippetMap.remove(name);
-            // TODO: 12/22/20 set error message
+            // TODO: 12/22/20 set error message and delete this line
+            return buildResponse(snippetMap.get(name));
         }
 
     }
